@@ -194,11 +194,11 @@
               "buttons": [],
               "svgIconKey": "Check",
               "description": {
-                "en": "On the main screen, tap the Disconnected button, then in the VPN configuration prompt tap Allow and enter your password to connect.",
-                "fa": "در صفحه اصلی روی دکمه Disconnected بزنید، سپس در پنجره مجوز پیکربندی VPN روی Allow ضربه بزنید و برای اتصال، رمز عبور خود را وارد کنید.",
-                "fr": "Sur l’écran principal, appuie sur « Disconnected », puis, dans la demande de configuration VPN, appuie sur « Allow » et entre ton mot de passe pour te connecter.",
-                "ru": "На главной странице нажми кнопку Disconnected,  в появившемся окне разрешения VPN-конфигурации нажмите Allow и введите свой пароль для подключения к VPN.",
-                "zh": "在主屏幕点击 Disconnected 按钮，然后在 VPN 配置提示中点击允许并输入您的密码以连接。"
+                "en": "On the main page, next to the Disconnected label, tap the VPN enable button and start using it.",
+                "fa": "در صفحه اصلی، در کنار عبارت Disconnected، روی دکمه فعال‌سازی VPN بزنید و از آن استفاده کنید.",
+                "fr": "Sur la page principale, à côté de l'inscription Disconnected, appuyez sur le bouton d'activation du VPN et utilisez-le.",
+                "ru": "На главной странице напротив надписи Отключено нажмите на кнопку включения VPN и пользуйтесь.",
+                "zh": "在主页面上，在已断开标签旁边，点击 VPN 启用按钮即可使用。"
               },
               "svgIconColor": "teal"
             }
@@ -2062,108 +2062,6 @@
     "android": {
       "apps": [
         {
-          "name": "Happ",
-          "blocks": [
-            {
-              "title": {
-                "en": "App Installation",
-                "fa": "نصب برنامه",
-                "fr": "Installation de l'application",
-                "ru": "Установка приложения",
-                "zh": "应用安装"
-              },
-              "buttons": [
-                {
-                  "link": "https://play.google.com/store/apps/details?id=com.happproxy",
-                  "text": {
-                    "en": "Open in Google Play",
-                    "fa": "باز کردن در Google Play",
-                    "fr": "Ouvre dans Google Play",
-                    "ru": "Открыть в Google Play",
-                    "zh": "在 Google Play 打开"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                },
-                {
-                  "link": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
-                  "text": {
-                    "en": "Download APK",
-                    "fa": "دانلود APK",
-                    "fr": "Télécharge l’APK",
-                    "ru": "Скачать APK",
-                    "zh": "下载 APK"
-                  },
-                  "type": "external",
-                  "svgIconKey": "ExternalLink"
-                }
-              ],
-              "svgIconKey": "DownloadIcon",
-              "description": {
-                "en": "Open the page in Google Play and install the app. Or install the app directly from the APK file if Google Play is not working.",
-                "fa": "صفحه را در Google Play باز کنید و برنامه را نصب کنید. یا برنامه را مستقیماً از فایل APK نصب کنید، اگر Google Play کار نمی کند.",
-                "fr": "Ouvre la page dans Google Play et installe l’app. Si Google Play ne fonctionne pas, installe‑la directement via l’APK.",
-                "ru": "Откройте страницу в Google Play и установите приложение. Или установите приложение из APK файла напрямую, если Google Play не работает.",
-                "zh": "在 Google Play 打开页面并安装应用。如果 Google Play 无法使用，也可以直接通过 APK 文件安装此应用。"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Add Subscription",
-                "fa": "اضافه کردن اشتراک",
-                "fr": "Ajouter une souscription",
-                "ru": "Добавление подписки",
-                "zh": "添加订阅"
-              },
-              "buttons": [
-                {
-                  "link": "happ://add/{{SUBSCRIPTION_LINK}}",
-                  "text": {
-                    "en": "Add Subscription",
-                    "fa": "اضافه کردن اشتراک",
-                    "fr": "Ajouter une souscription",
-                    "ru": "Добавить подписку",
-                    "zh": "添加订阅"
-                  },
-                  "type": "subscriptionLink",
-                  "svgIconKey": "Plus"
-                }
-              ],
-              "svgIconKey": "CloudDownload",
-              "description": {
-                "en": "Click the button below to add subscription",
-                "fa": "برای افزودن اشتراک روی دکمه زیر کلیک کنید",
-                "fr": "Clique sur le bouton ci‑dessous pour ajouter l’abonnement.",
-                "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
-                "zh": "点击下方按钮以添加订阅"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Connect and use",
-                "fa": "متصل شوید و استفاده کنید",
-                "fr": "Se connecter et utiliser",
-                "ru": "Подключение и использование",
-                "zh": "连接并使用"
-              },
-              "buttons": [],
-              "svgIconKey": "Check",
-              "description": {
-                "en": "Open the app and connect to the server",
-                "fa": "برنامه را باز کنید و به سرور متصل شوید",
-                "fr": "Ouvre l’app et connecte‑toi au serveur.",
-                "ru": "Откройте приложение и подключитесь к серверу",
-                "zh": "打开应用并连接到服务器"
-              },
-              "svgIconColor": "teal"
-            }
-          ],
-          "featured": true,
-          "svgIconKey": "Happ"
-        },
-        {
           "name": "Clash Mi",
           "blocks": [
             {
@@ -2190,11 +2088,11 @@
               ],
               "svgIconKey": "DownloadIcon",
               "description": {
-                "en": "Click the button below to download the APK file. Open the downloaded file and install the app.",
-                "fa": "روی دکمه زیر کلیک کنید تا فایل APK دانلود شود. فایل دانلود شده را باز کنید و برنامه را نصب کنید.",
-                "fr": "Clique sur le bouton ci‑dessous pour télécharger le fichier APK. Ouvre le fichier téléchargé et installe l'app.",
-                "ru": "Нажмите кнопку ниже, чтобы скачать APK файл. Откройте загруженный файл и установите приложение.",
-                "zh": "点击下方按钮下载 APK 文件。打开下载的文件并安装应用。"
+                "en": "Download and install Clash Mi APK",
+                "fa": "دانلود و نصب Clash Mi APK",
+                "fr": "Télécharge et installe l’APK Clash Mi.",
+                "ru": "Скачайте и установите Clash Mi APK",
+                "zh": "下载并安装 Clash Mi APK"
               },
               "svgIconColor": "blue"
             },
@@ -2244,7 +2142,7 @@
                 "en": "On the main screen, tap the Disconnected button, then in the VPN configuration prompt tap Allow and enter your password to connect.",
                 "fa": "در صفحه اصلی روی دکمه Disconnected بزنید، سپس در پنجره مجوز پیکربندی VPN روی Allow ضربه بزنید و برای اتصال، رمز عبور خود را وارد کنید.",
                 "fr": "Sur l'écran principal, appuie sur « Disconnected », puis, dans la demande de configuration VPN, appuie sur « Allow » et entre ton mot de passe pour te connecter.",
-                "ru": "На главной странице нажми кнопку Disconnected,  в появившемся окне разрешения VPN-конфигурации нажмите Allow и введите свой пароль для подключения к VPN.",
+                "ru": "На главной странице напротив надписи Отключено нажмите на кнопку включения VPN и пользуйтесь.",
                 "zh": "在主屏幕点击 Disconnected 按钮，然后在 VPN 配置提示中点击允许并输入您的密码以连接。"
               },
               "svgIconColor": "teal"
@@ -2465,7 +2363,7 @@
           "svgIconKey": "ClashMeta"
         },
         {
-          "name": "v2rayNG",
+          "name": "Happ",
           "blocks": [
             {
               "title": {
@@ -2477,7 +2375,19 @@
               },
               "buttons": [
                 {
-                  "link": "https://github.com/2dust/v2rayNG/releases/download/2.0.9/v2rayNG_2.0.9_universal.apk",
+                  "link": "https://play.google.com/store/apps/details?id=com.happproxy",
+                  "text": {
+                    "en": "Open in Google Play",
+                    "fa": "باز کردن در Google Play",
+                    "fr": "Ouvre dans Google Play",
+                    "ru": "Открыть в Google Play",
+                    "zh": "在 Google Play 打开"
+                  },
+                  "type": "external",
+                  "svgIconKey": "ExternalLink"
+                },
+                {
+                  "link": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
                   "text": {
                     "en": "Download APK",
                     "fa": "دانلود APK",
@@ -2491,11 +2401,11 @@
               ],
               "svgIconKey": "DownloadIcon",
               "description": {
-                "en": "Download and install v2rayNG APK",
-                "fa": "دانلود و نصب v2rayNG APK",
-                "fr": "Télécharge et installe l’APK v2rayNG.",
-                "ru": "Скачайте и установите v2rayNG APK",
-                "zh": "下载并安装 v2rayNG APK"
+                "en": "Open the page in Google Play and install the app. Or install the app directly from the APK file if Google Play is not working.",
+                "fa": "صفحه را در Google Play باز کنید و برنامه را نصب کنید. یا برنامه را مستقیماً از فایل APK نصب کنید، اگر Google Play کار نمی کند.",
+                "fr": "Ouvre la page dans Google Play et installe l’app. Si Google Play ne fonctionne pas, installe‑la directement via l’APK.",
+                "ru": "Откройте страницу в Google Play и установите приложение. Или установите приложение из APK файла напрямую, если Google Play не работает.",
+                "zh": "在 Google Play 打开页面并安装应用。如果 Google Play 无法使用，也可以直接通过 APK 文件安装此应用。"
               },
               "svgIconColor": "cyan"
             },
@@ -2509,7 +2419,7 @@
               },
               "buttons": [
                 {
-                  "link": "v2rayng://install-config?name={{USERNAME}}&url={{SUBSCRIPTION_LINK}}",
+                  "link": "happ://add/{{SUBSCRIPTION_LINK}}",
                   "text": {
                     "en": "Add Subscription",
                     "fa": "اضافه کردن اشتراک",
@@ -2523,30 +2433,11 @@
               ],
               "svgIconKey": "CloudDownload",
               "description": {
-                "en": "Click the button below — the app will open and the subscription will be added automatically",
-                "fa": "برای افزودن خودکار اشتراک روی دکمه زیر کلیک کنید - برنامه باز خواهد شد",
-                "fr": "Clique sur le bouton ci‑dessous — l’app s’ouvrira et l’abonnement sera ajouté automatiquement.",
-                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.",
-                "zh": "点击下方按钮，应用将会打开，并自动添加订阅"
-              },
-              "svgIconColor": "cyan"
-            },
-            {
-              "title": {
-                "en": "Update subscriptions",
-                "fa": "به‌روزرسانی اشتراک‌ها",
-                "fr": "Mettre à jour les abonnements",
-                "ru": "Обновление подписки",
-                "zh": "更新订阅"
-              },
-              "buttons": [],
-              "svgIconKey": "Gear",
-              "description": {
-                "en": "Tap the three dots in the top-right corner and select Update subscription. After that, the available servers will appear in the list.",
-                "fa": "روی سه نقطه در گوشه بالا سمت راست کلیک کنید و گزینه به‌روزرسانی اشتراک را انتخاب کنید. سپس سرورهای موجود در لیست ظاهر می‌شوند.",
-                "fr": "Appuie sur les trois points en haut à droite et sélectionne « Update subscription ». Les serveurs disponibles apparaîtront alors dans la liste.",
-                "ru": "Нажмите на три точечки справа сверху и выберите Обновить подписку. После этого в списке появятся доступные серверы",
-                "zh": "点击右上角的三个点，选择“更新订阅”。之后，列表中会显示可用服务器。"
+                "en": "Click the button below to add subscription",
+                "fa": "برای افزودن اشتراک روی دکمه زیر کلیک کنید",
+                "fr": "Clique sur le bouton ci‑dessous pour ajouter l’abonnement.",
+                "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
+                "zh": "点击下方按钮以添加订阅"
               },
               "svgIconColor": "cyan"
             },
@@ -2561,17 +2452,17 @@
               "buttons": [],
               "svgIconKey": "Check",
               "description": {
-                "en": "Select the required server and click the Enable button in the bottom right corner.",
-                "fa": "سرور موردنظر را انتخاب کنید و روی دکمه فعال‌سازی در گوشه پایین سمت راست کلیک کنید.",
-                "fr": "Sélectionne le serveur souhaité puis appuie sur « Enable » en bas à droite.",
-                "ru": "Выберите требуемый сервер и нажмите кнопку Включить в правом нижнем углу",
-                "zh": "选择所需服务器并点击右下角的启用按钮。"
+                "en": "Open the app and connect to the server",
+                "fa": "برنامه را باز کنید و به سرور متصل شوید",
+                "fr": "Ouvre l’app et connecte‑toi au serveur.",
+                "ru": "Откройте приложение и подключитесь к серверу",
+                "zh": "打开应用并连接到服务器"
               },
               "svgIconColor": "teal"
             }
           ],
-          "featured": false,
-          "svgIconKey": "VRayNG"
+          "featured": true,
+          "svgIconKey": "Happ"
         }
       ],
       "svgIconKey": "Android",
