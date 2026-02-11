@@ -185,6 +185,38 @@
             },
             {
               "title": {
+                "en": "Add routing rules",
+                "fa": "قوانین مسیریابی را اضافه کنید",
+                "fr": "Ajouter des règles de routage",
+                "ru": "Добавить правила маршрутизации",
+                "zh": "添加路由规则"
+              },
+              "buttons": [
+                {
+                  "link": "https://routing.help/",
+                  "text": {
+                    "en": "Add rules for Russia",
+                    "fa": "قوانین روسیه را اضافه کنید",
+                    "fr": "Ajouter des règles pour la Russie",
+                    "ru": "Добавить правила для России",
+                    "zh": "添加俄罗斯规则"
+                  },
+                  "type": "external",
+                  "svgIconKey": "ExternalLink"
+                }
+              ],
+              "svgIconKey": "Gear",
+              "description": {
+                "en": "By adding routing, internal websites and applications are not passed through the VPN",
+                "fa": "با اضافه کردن مسیریابی, وب سایت ها و برنامه های داخلی از VPN عبور داده نمیشود",
+                "fr": "En ajoutant un routage, les sites et apps internes ne passent pas par le VPN.",
+                "ru": "При добавлении роутинга, сайты внутри страны будут открываться без VPN",
+                "zh": "添加路由后，国内网站和应用将不会通过 VPN 访问"
+              },
+              "svgIconColor": "cyan"
+            },
+            {
+              "title": {
                 "en": "Connect and use",
                 "fa": "متصل شوید و استفاده کنید",
                 "fr": "Se connecter et utiliser",
@@ -2438,6 +2470,38 @@
                 "fr": "Clique sur le bouton ci‑dessous pour ajouter l’abonnement.",
                 "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
                 "zh": "点击下方按钮以添加订阅"
+              },
+              "svgIconColor": "cyan"
+            },
+            {
+              "title": {
+                "en": "Add routing rules",
+                "fa": "قوانین مسیریابی را اضافه کنید",
+                "fr": "Ajouter des règles de routage",
+                "ru": "Добавить правила маршрутизации",
+                "zh": "添加路由规则"
+              },
+              "buttons": [
+                {
+                  "link": "https://routing.help/",
+                  "text": {
+                    "en": "Add rules for Russia",
+                    "fa": "قوانین روسیه را اضافه کنید",
+                    "fr": "Ajouter des règles pour la Russie",
+                    "ru": "Добавить правила для России",
+                    "zh": "添加俄罗斯规则"
+                  },
+                  "type": "external",
+                  "svgIconKey": "ExternalLink"
+                }
+              ],
+              "svgIconKey": "Gear",
+              "description": {
+                "en": "By adding routing, internal websites and applications are not passed through the VPN",
+                "fa": "با اضافه کردن مسیریابی, وب سایت ها و برنامه های داخلی از VPN عبور داده نمیشود",
+                "fr": "En ajoutant un routage, les sites et apps internes ne passent pas par le VPN.",
+                "ru": "При добавлении роутинга, сайты внутри страны будут открываться без VPN",
+                "zh": "添加路由后，国内网站和应用将不会通过 VPN 访问"
               },
               "svgIconColor": "cyan"
             },
