@@ -194,11 +194,11 @@
               "buttons": [],
               "svgIconKey": "Check",
               "description": {
-                "en": "On the main page, next to the Disconnected label, tap the VPN enable button and start using it.",
-                "fa": "در صفحه اصلی، در کنار عبارت Disconnected، روی دکمه فعال‌سازی VPN بزنید و از آن استفاده کنید.",
-                "fr": "Sur la page principale, à côté de l'inscription Disconnected, appuyez sur le bouton d'activation du VPN et utilisez-le.",
-                "ru": "На главной странице напротив надписи Отключено нажмите на кнопку включения VPN и пользуйтесь.",
-                "zh": "在主页面上，在已断开标签旁边，点击 VPN 启用按钮即可使用。"
+                "en": "On the main screen, tap the Disconnected button, then in the VPN configuration prompt tap Allow and enter your password to connect.",
+                "fa": "در صفحه اصلی روی دکمه Disconnected بزنید، سپس در پنجره مجوز پیکربندی VPN روی Allow ضربه بزنید و برای اتصال، رمز عبور خود را وارد کنید.",
+                "fr": "Sur l’écran principal, appuie sur « Disconnected », puis, dans la demande de configuration VPN, appuie sur « Allow » et entre ton mot de passe pour te connecter.",
+                "ru": "На главной странице нажми кнопку Disconnected,  в появившемся окне разрешения VPN-конфигурации нажмите Allow и введите свой пароль для подключения к VPN.",
+                "zh": "在主屏幕点击 Disconnected 按钮，然后在 VPN 配置提示中点击允许并输入您的密码以连接。"
               },
               "svgIconColor": "teal"
             }
